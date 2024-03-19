@@ -238,8 +238,9 @@
 }
  @media (max-width: 578px) {
     :root{
-        --fs-72: 20px;
+        --fs-72: 18px;
         --fs-18: 14px;
+        --line-100: 40px;
         --fs-157: 40px;
         --fs-16: 12px;
     }
