@@ -201,7 +201,7 @@ background: var(--black);
     
 }
 .count_100{
-    font-size: 36px !important;
+    font-size: var(--fs-36) !important;
 }
 .plus_minus{
     max-width: 238px;
