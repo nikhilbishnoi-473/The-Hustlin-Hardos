@@ -472,6 +472,7 @@ border-bottom: 2px solid var(--black);
     content: "";
     position: absolute;
     width: 20px;
+    
 background-image: url(../images/Line-81.png);
 background-size: 100% 100%;
 background-repeat: no-repeat;
