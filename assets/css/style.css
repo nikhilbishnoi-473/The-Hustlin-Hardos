@@ -781,6 +781,9 @@ transition: all 400ms linear;
         padding-left: 24px;
         padding-right: 24px;
     }
+    .d_md_block{
+        display: none;
+    }
     
 }
 
@@ -894,7 +897,7 @@ transition: all 400ms linear;
     padding-right: 0px;
     padding-bottom: 30px;
 }
-
+ 
 }
 @media (max-width: 500px) {
     
