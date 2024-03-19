@@ -46,7 +46,7 @@
     
     --black: #000000;
     --white: #FFFFFF;
-   
+   --black2: #00000040;
     --green: #00A106;
     --red: #FF0000;
     --yellow: #FFD600;
@@ -58,6 +58,9 @@
 }
 .fs-35{
     font-size: var(--fs-35);
+}
+.black2{
+    color: var(--black2);
 }
 .lightgrey{
     color: var(--lightgrey);
