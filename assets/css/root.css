@@ -12,7 +12,7 @@
     --fs-48: 48px;
     --fs-24: 24px;
     --fs-64: 64px;
-    
+    --fs-35: 36px;
     /* font-weight */
     --fw-600: 600;
     --fw-400: 400;
@@ -55,6 +55,9 @@
 }
 .fw-900{
     font-weight: var(--fw-900);
+}
+.fs-35{
+    font-size: var(--fs-35);
 }
 .lightgrey{
     color: var(--lightgrey);
