@@ -200,6 +200,9 @@ background: var(--black);
     padding-left: 25px;
     
 }
+.pl-20{
+    padding-left: 20px;
+}
 .count_100{
     font-size: var(--fs-36) !important;
 }
