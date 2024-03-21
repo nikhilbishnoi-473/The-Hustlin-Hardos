@@ -22,7 +22,6 @@
     bottom: 20px;
     right: 30px;
     z-index: 49;
-    font-size: 18px;
     border: none;
     outline: none;
     background-color: transparent;
@@ -103,9 +102,7 @@ height: 53px;
     max-width: 475px !important;
 
 }
-.para_1{
-    max-width: 475px;
-}
+ 
 .pt-16{
     padding-top: 16px;
 }
@@ -125,7 +122,7 @@ height: 53px;
     border-bottom: 2px solid var(--black);
 }
 .line-1{
-    max-width: 1440px;
+    width: 100%;
 height: 2px;
 background: var(--black);
 
@@ -210,9 +207,7 @@ background: var(--black);
     padding-bottom: 89px;
 
 }
-.most_of{
-    max-width: 438px;
-}
+ 
 .padding_col{
     padding-top: 44px;
     padding-bottom: 47px;
@@ -262,6 +257,9 @@ background: var(--black);
     border-right: 2px solid var(--black);
 
     
+}
+.max-width_2{
+    max-width: 570px;   
 }
 .pb-21{
     padding-bottom: 21px;
@@ -544,6 +542,10 @@ background-position: center;
   .pt-10{
     padding-top: 10px;
   }
+  .transition_1:hover{
+    transform: translateY(-10px);
+    transition: all 400ms linear;
+  }
   .pt-99{
     padding-top: 99px;
   }
@@ -581,42 +583,31 @@ background-position: center;
    
   
 .card {
-    --bs-card-spacer-y: 1rem;
-    --bs-card-spacer-x: 1rem;
-    --bs-card-title-spacer-y: 0.5rem;
-    --bs-card-title-color: ;
-    --bs-card-subtitle-color: ;
-    --bs-card-border-width: var(--bs-border-width);
+    
     --bs-card-border-color: none
     --bs-card-border-radius: none;
     --bs-card-box-shadow: none;
     --bs-card-inner-border-radius:  none;
-    --bs-card-cap-padding-y: 0.5rem;
-    --bs-card-cap-padding-x: 1rem;
-    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
-    --bs-card-cap-color: ;
-    --bs-card-height: ;
-    --bs-card-color: ;
+    
+    
     --bs-card-bg: transparent;
-    ard-img-overlay-padding: 1rem;
-    --bs-card-group-margin: 0.75rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    height: var(--bs-card-height);
+   
     color: black;
     word-wrap: break-word;
-    background-color: var(--bs-card-bg);
-    background-clip: border-box;
-    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
-    border-radius: var(--bs-card-border-radius);
+   
+   
 }
-.p_4{
+.pl-30{
     padding-left: 30px;
+}
+.pr-30{
     padding-right: 30px;
+}
+.pb-30{
     padding-bottom: 30px;
 }
+ 
+ 
 .border_l_r{
     border-left: 2px solid var(--black);
     border-right: 2px solid var(--black);
@@ -638,7 +629,6 @@ transition: all 400ms linear;
 
 }
  
-  /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 768px) {
     /* Place the timelime to the left */
     .main-timeline::after {
@@ -674,6 +664,89 @@ transition: all 400ms linear;
     .right {
       left: 0%;
     }
+    .pt-89{
+        padding-top: 30px;
+    }
+    .pb-90{
+        padding-bottom: 30px;
+    }
+    .pt-88{
+        padding-top: 40px; 
+        }
+    .pb-89{
+        padding-bottom: 40px;
+    
+    }
+    .pt-99{
+        padding-top: 40px;
+    }
+    .pb-78{
+        padding-bottom: 40px;
+    }
+    .read_more{
+       
+        /* display: inline-block; */
+        max-width: 83px;
+    }
+
+    
+    .accord_1{
+        padding-right: 14px;
+        padding-top: 10px;
+     padding-left: 0;
+        padding-bottom: 10px;
+    }
+    .max-w_nft{
+        padding-top: 0;
+    }
+    
+.next_btn{
+    height: 30px;
+    width: 25px;
+}
+.prev_btn{
+    height: 30px;
+    width: 25px;
+}
+.pb-64{
+    padding-bottom: 30px;
+}
+.pt-67{
+    padding-top: 30px;
+}
+.margin_minus{
+    margin-top: -25px;
+}
+.margin_minus_2{
+    margin-top: -25px;
+}
+.margin_minus_3{
+    margin-top: -25px;
+}
+.margin_minus_4{
+    margin-top: -25px;
+}
+.margin_minus_5{
+    margin-top: -25px;
+}
+.margin_minus_6{
+    margin-top: -25px;
+}
+.margin_minus_7{
+    margin-top: -25px;
+}
+ .pl-30{
+    padding-left: 0px;
+}
+.pr-30{
+    padding-right: 0px;
+}
+.pb-30{
+    padding-bottom: 0px !important;
+}
+.pb_30{
+    padding-bottom: 0;
+}
   }
 
 @media (max-width:767px) {
@@ -748,9 +821,6 @@ transition: all 400ms linear;
     .right {
         left: 0%;
     }
-}
-
-@media (max-width:767px) {
     .flex-col {
         flex-direction: column;
     }
@@ -762,7 +832,11 @@ transition: all 400ms linear;
     .over_flow_x {
         overflow-x: scroll;
     }
+    .gap_48{
+        gap: 48px;
+    }
 }
+ 
 @media (min-width: 768px) {
     .box_1{
         /* width: 121px; */
@@ -791,12 +865,7 @@ transition: all 400ms linear;
     
 }
 
-@media (max-width: 767px) {
-    .gap_48{
-        gap: 48px;
-    }
-    
-}
+ 
 @media (max-width: 578px) {
     .pt-25{
         padding-top: 0;
@@ -819,90 +888,22 @@ transition: all 400ms linear;
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .left_border_1{
+    /* .left_border_1{
         border-right: 2px solid var(--black);
+    } */
+    .left_border{
+        border-left: none;
     }
+   
     
 }
-@media (max-width: 768px) {
-    .pt-89{
-        padding-top: 30px;
-    }
-    .pb-90{
-        padding-bottom: 30px;
-    }
-    .pt-88{
-        padding-top: 40px; 
-        }
-    .pb-89{
-        padding-bottom: 40px;
-    
-    }
-    .pt-99{
-        padding-top: 40px;
-    }
-    .pb-78{
-        padding-bottom: 40px;
-    }
-    .read_more{
-       
-        /* display: inline-block; */
-        max-width: 83px;
-    }
-
-    
-    .accord_1{
-        padding-right: 14px;
-        padding-top: 10px;
-     padding-left: 0;
-        padding-bottom: 10px;
-    }
-    .max-w_nft{
-        padding-top: 0;
+@media (max-width: 991.5px) {
+    .pt_lg{
+        padding-top: 20px !important;
     }
     
-.next_btn{
-    height: 30px;
-    width: 25px;
-}
-.prev_btn{
-    height: 30px;
-    width: 25px;
-}
-.pb-64{
-    padding-bottom: 30px;
-}
-.pt-67{
-    padding-top: 30px;
-}
-.margin_minus{
-    margin-top: -25px;
-}
-.margin_minus_2{
-    margin-top: -25px;
-}
-.margin_minus_3{
-    margin-top: -25px;
-}
-.margin_minus_4{
-    margin-top: -25px;
-}
-.margin_minus_5{
-    margin-top: -25px;
-}
-.margin_minus_6{
-    margin-top: -25px;
-}
-.margin_minus_7{
-    margin-top: -25px;
-}
-.p_4{
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 30px;
 }
  
-}
 @media (max-width: 500px) {
     
 .border_left{
@@ -913,6 +914,12 @@ transition: all 400ms linear;
     border-right: none;
 }
 }
-@media (max-width: 767px) {
-    
+@media (min-width: 992px) {
+    .most_of{
+        max-width: 438px;
+    }
+    .para_1{
+        max-width: 475px;
+    }
 }
+ 
